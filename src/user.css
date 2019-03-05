@@ -1,0 +1,98 @@
+body{
+	overflow-x: hidden;
+}
+@media screen and (max-width: 500px) {
+   body{
+   	width:200%;
+    overflow-x: auto;
+  }
+}
+@media screen and (max-width: 900px) {
+   body{
+   	width:130%;
+    overflow-x: auto;
+  }
+}
+
+.headingclass{
+	height:55px;
+	padding-top: 8px;
+	border-bottom: 2px solid #08f;
+	text-align: center;
+	margin-top: 0px;
+	background: #F1F1F1;
+}
+.commonbutton{
+	margin-right:12px;
+	border-radius: 4px;
+}
+.subjectText{
+	font-size:19px;
+	font-weight: 600;
+	color: darkgreen;
+}
+.leftside{
+	height: -webkit-fill-available;
+    border-right: 2px solid #F1F1F1;
+    padding-right: 0;
+}
+.userinfo{
+	min-height: 60px;
+	border: 2px solid #F1F1F1;
+	margin-right:0px;
+}
+.username{
+	text-align: center;
+	padding-top: 15px;
+	font-weight: 600;
+	font-size:20px;
+}
+.userpic{
+	position: relative;
+	top: 14px;
+	left: 20px;
+	font-size: 25px;
+}
+.selectionuser{
+	margin:15px;
+	margin-left:8px;
+	margin-top: 20px;
+	height: 16px;
+	width: 16px;
+	padding-right: 0px;
+}
+.leftside .row{
+	margin-right: 0px;
+}
+.headingtag{
+	font-size: 22px;
+	font-weight:600;
+}
+.changeuser{
+	cursor:pointer;
+}
+.deleteicon{
+	float: right;
+	font-size:22px;
+	margin-top:6px;
+	margin-right:12px;
+	cursor: pointer
+}
+.userrightsideinfo{
+	height:50px;
+	padding: 35px;
+}
+.labeltag{
+	font-weight:600;
+	font-size:20px;
+}
+.valuetag{
+	font-size: 20px;
+	border-bottom: 1px solid #F1F1F1;
+	padding-bottom: 5px;
+}
+.rightside{
+	width:auto;
+	height:auto;
+	padding: 40px;
+}
